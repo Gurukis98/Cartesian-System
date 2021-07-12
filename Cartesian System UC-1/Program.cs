@@ -12,7 +12,9 @@ namespace Cartesian_System_UC_1
             int y2 = 10;
             Console.WriteLine("Point One: " + (x1,y1));
             Console.WriteLine("Point Two: " + (x2, y2));
-            Console.WriteLine("Length of a Line: " + Math.Sqrt((x2-x1)^2 + (y2-y1)^2));
-        }
+            double pow = Math.Pow((x2 - x1), 2) + Math.Pow((y2 - y1), 2);
+            Console.WriteLine("Power = " + pow);
+            Console.WriteLine("Length of a Line: " + Math.Sqrt(pow));       
+       }
     }
 }
