@@ -14,7 +14,7 @@ namespace Cartesian_System_UC_2
             //end points are equal its print true
             int p2 = 6;
             int q2 = 6;
-            Console.WriteLine("End Points are: " + p2.Equals(q2));
+            Console.WriteLine("End Points are : " + p2.Equals(q2));
         }
     }
 }
