@@ -16,7 +16,7 @@ namespace Cartesian_System_UC_3
             //8>4 is true (lesser than)
 
             Console.WriteLine("Line one: " + (x1 > y1));
-            Console.WriteLine("Line Two: " + (x2 == y2));
+            Console.WriteLine("Line Two : " + (x2 == y2));
         }
     }
 }
